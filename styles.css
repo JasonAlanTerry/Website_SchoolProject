@@ -4,7 +4,11 @@
 
 body {
 
+<<<<<<< HEAD
     background-image:url("Resources/background_tile.jpg");
+=======
+    background-image:url("background_tile.jpg");
+>>>>>>> 3b8ec7f2b3ba8a3ede6016d0e00d48879379a242
 
 }
 
@@ -23,6 +27,7 @@ h1 {
     text-align: center;
 }
 
+<<<<<<< HEAD
 body {
 
     margin: auto;
@@ -42,10 +47,23 @@ a:link, a:visited {
             border: 2px solid;
 	    -webkit-border-radius: 3px;
 	    border-radius: 3px;
+=======
+/* This is the general styleing for links */
+
+a:link, a:visited {
+	    background-color: #bfbfbf; 
+	    color: black;
+	    padding: 10px 0px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+
+>>>>>>> 3b8ec7f2b3ba8a3ede6016d0e00d48879379a242
 	}
 
 a:hover {
     color: white;
+<<<<<<< HEAD
     background-color: #b3b3b3;
     paddding: 2px;
     border: 2px solid;
@@ -136,3 +154,47 @@ a:hover {
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
 }
 
+=======
+}
+
+/* Nav Bar Style */
+#sidebar {
+    
+    background-color: #bfbfbf;
+    width: 120px;
+    padding: 10px;
+    border: 5px solid #737373;
+    margin: 0;
+
+}
+
+/* Title Bar Style */
+#titlebar {
+
+    background-color: #bfbfbf;
+    width: 90%;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 0;
+    
+}
+
+/* Page Content */
+#pagecontent {
+
+    position: relative;
+    
+    width: 960px;
+    height: 100%
+		
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    
+}
+
+
+
+		       
+
+>>>>>>> 3b8ec7f2b3ba8a3ede6016d0e00d48879379a242
